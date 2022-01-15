@@ -56,7 +56,7 @@ html {
 }
 body {
   /* margin bottom from footer height */
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .footer {
   position: absolute;
