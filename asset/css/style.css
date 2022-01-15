@@ -1,0 +1,79 @@
+nav {
+font-family: 'Abril Fatface', cursive;
+text-align: center;
+width: auto;
+padding:10px;
+font-size: 35px;
+background-color: #F6E3BA;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+nav a {
+color: #84170B;
+text-decoration: none;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav a:hover {
+  color: white;
+  text-shadow: 3px 3px #ff0000;
+  box-shadow: 
+}
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+h1 {
+color: #84170B;
+font-family: 'Abril Fatface', cursive;
+text-align: center;
+font-size: 35px;
+}
+
+.SAO {
+  font-size: 40px;
+}
+
+h2 {
+color: #84170B;
+font-family: 'Cormorant Garamond', serif;
+text-align: center;
+width: auto;
+padding:10px;
+font-size: 20px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* margin bottom from footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* set the height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+footer nav {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+//https://www.w3.org/TR/css3-values/#viewport-relative-lengths
+//https://vw.joealden.com/
+//https://www.w3schools.com/howto/howto_css_hero_image.asp
